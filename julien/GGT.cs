@@ -8,6 +8,7 @@ namespace julien
 {
     class GGT
     {
+        // recursion
         public int GGTFunction(int a, int b)
         {
             if (a - b == 0)
@@ -27,5 +28,6 @@ namespace julien
                 return GGTFunction(a, b);
             }
         }
+
     }
 }
